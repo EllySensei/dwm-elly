@@ -15,8 +15,8 @@ static const unsigned int gappov    = 5;       /* vert outer gap between windows
 static       int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "hack:size=11", "fontawesome:size=11" };
-static const char dmenufont[]       = "hack:size=11";
+static const char *fonts[]          = { "mononoki nf:size=12" };
+static const char dmenufont[]       = "mononoki nf:size=12";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
@@ -35,7 +35,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "", "", "", "", "", "", "", "", "" };
+static const char *tags[] = { "", "", "", "", "", "", "ﭮ", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
