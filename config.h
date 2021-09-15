@@ -15,20 +15,20 @@ static const unsigned int gappov    = 5;       /* vert outer gap between windows
 static       int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char font[]            = "Hack, Font Awesome 5 Free Solid, Font Awesome 5 Free Regular, Font Awesome 5 Free Brands 12";
+static const char font[]            = "Hack, Font Awesome 5 Free Solid, Font Awesome 5 Free Regular, Font Awesome 5 Free Brands 9";
 /* static const char dmenufont[]       = "mononoki nf:size=12"; */
-static const char col_gray1[]       = "#282a36";
+static const char col_gray1[]       = "#2e3440";
 static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#ff99d3";
+static const char col_gray3[]       = "#d8dee9";
+static const char col_gray4[]       = "#d8dee9";
+static const char col_cyan[]        = "#aa49ad";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	 [SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
          [SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
 
 	[SchemeStatus]  = { "#ffb3db", col_gray1,  "#000000"  }, // Statusbar right {text,background,not used but cannot be empty}
-	[SchemeTagsSel]  = { col_gray4, "#1b89e3",  "#000000"  }, // Tagbar left selected {text,background,not used but cannot be empty}
+	[SchemeTagsSel]  = { col_gray4, col_cyan,  "#000000"  }, // Tagbar left selected {text,background,not used but cannot be empty}
     [SchemeTagsNorm]  = { col_gray3, col_gray1,  "#000000"  }, // Tagbar left unselected {text,background,not used but cannot be empty}
     [SchemeInfoSel]  = { col_gray4, col_gray1,  "#000000"  }, // infobar middle  selected {text,background,not used but cannot be empty}
     [SchemeInfoNorm]  = { col_gray3, col_gray1,  "#000000"  }, // infobar middle  unselected {text,background,not used but cannot be empty}
